@@ -1,17 +1,30 @@
-# nodejs-packing-mpd
+# Converting LDR Files to Packed MPD Files
 
-A basic example of how to concert an LDR file to a packed MPD.
+This repo stores the files and instructions to convert an `.ldr` file created using [BrickLink Studio](https://www.bricklink.com/v3/studio/download.page) to a packed `.mpd` file. This is the file type required by [THREE.js](https://threejs.org/) to display a [BrickLink Studio](https://www.bricklink.com/v3/studio/download.page) project in a web page.
 
-1. Download and unzip the complete [LDraw Paert Library](https://library.ldraw.org/updates?latest). You will have the following folder structure:
+For an example check out the [LDrawLoader documentation](https://threejs.org/docs/#examples/en/loaders/LDrawLoader) and [LDrawLoader examples](https://threejs.org/examples/#webgl_loader_ldraw). 
 
-```
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
-```
+To convert your `.ldr` file, follow these steps:
 
-3. Incide t
+1. Download and unzip the complete [LDraw Part Library](https://library.ldraw.org/updates?latest).
+2. Move the `.ldr` file you want to convert to the `ldraw/models/` folder.
+3. Download just the `packLDrawModel.mjs` object file from the [THREE.js](https://github.com/mrdoob/three.js/blob/master/utils/packLDrawModel.mjs) GitHub repo and place it in the `ldraw/` folder.
+4. Your folder structure should look like this: 
+
+  ```
+  ├── ldraw
+  │   └── models
+  │   │   └── yourModel.ldr
+  │   ├── p
+  │   └── parts
+  └── packLDrawModel.mjs
+  ```
+
+5. Open up the terminal, navigate to the `ldraw/` folder and run the following command:
+
+  ```
+  node packLDrawModel.mjs models/yourModel.ldr
+  ```
+
+  > [!NOTE]
+  > Note: Replace `yourModel.ldr` with the name of your model.
