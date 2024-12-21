@@ -43,7 +43,7 @@ This project uses [LDraw](https://ldraw.org/), [Node.js](https://nodejs.org/en) 
 
 ## Repo Resources
 
-* [THREE.js]([https://www.brickmmo.com/](https://threejs.org/))
+* [THREE.js](https://threejs.org/)
 * [LDraw](https://ldraw.org/)
 
 <a href="https://codeadam.ca">
