@@ -28,3 +28,5 @@ To convert your `.ldr` file, follow these steps:
 
   > [!NOTE]
   > Note: Replace `yourModel.ldr` with the name of your model.
+
+6. You new file will be named `yourModel.ldr_Packed.mpd`.
