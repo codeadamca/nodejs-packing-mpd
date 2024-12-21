@@ -30,3 +30,22 @@ To convert your `.ldr` file, follow these steps:
   > Note: Replace `yourModel.ldr` with the name of your model.
 
 6. You new file will be named `yourModel.ldr_Packed.mpd`.
+
+---
+
+## Project Stack
+
+This project uses [Node.js](https://php.net) and [THREE.js](https://www.w3schools.com/w3css).
+
+<img src="https://console.codeadam.ca/api/image/nodejs" width="60"> <img src="https://console.codeadam.ca/api/image/threejs" width="60">
+
+---
+
+## Repo Resources
+
+* [BrickMMO](https://www.brickmmo.com/)
+* [BrickMMO VideoKit](https://videokit.brickmmo.com/)
+
+<a href="https://brickmmo.com">
+<img src="https://cdn.brickmmo.com/images@1.0.0/brickmmo-logo-coloured-horizontal.png" width="200">
+</a>
