@@ -35,7 +35,7 @@ To convert your `.ldr` file, follow these steps:
 
 ## Project Stack
 
-This project uses [Node.js](https://php.net) and [THREE.js](https://www.w3schools.com/w3css).
+This project uses [Node.js](https://nodejs.org/en) and [THREE.js](https://threejs.org/).
 
 <img src="https://console.codeadam.ca/api/image/nodejs" width="60"> <img src="https://console.codeadam.ca/api/image/threejs" width="60">
 
@@ -43,9 +43,9 @@ This project uses [Node.js](https://php.net) and [THREE.js](https://www.w3school
 
 ## Repo Resources
 
-* [BrickMMO](https://www.brickmmo.com/)
-* [BrickMMO VideoKit](https://videokit.brickmmo.com/)
+* [THREE.js]([https://www.brickmmo.com/](https://threejs.org/))
+* [LDraw](https://ldraw.org/)
 
-<a href="https://brickmmo.com">
-<img src="https://cdn.brickmmo.com/images@1.0.0/brickmmo-logo-coloured-horizontal.png" width="200">
+<a href="https://codeadam.ca">
+<img src="https://codeadam.ca/images/code-block.png" width="100">
 </a>
