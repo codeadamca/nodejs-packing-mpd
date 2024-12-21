@@ -35,7 +35,7 @@ To convert your `.ldr` file, follow these steps:
 
 ## Project Stack
 
-This project uses [Node.js](https://nodejs.org/en) and [THREE.js](https://threejs.org/).
+This project uses [LDraw](https://ldraw.org/), [Node.js](https://nodejs.org/en) and [THREE.js](https://threejs.org/).
 
 <img src="https://console.codeadam.ca/api/image/nodejs" width="60"> <img src="https://console.codeadam.ca/api/image/threejs" width="60">
 
