@@ -27,9 +27,9 @@ To convert your `.ldr` file, follow these steps:
   ```
 
   > [!NOTE]
-  > Note: Replace `yourModel.ldr` with the name of your model.
+  > Note: Replace `yourModel.ldr` with the name of your model file.
 
-6. You new file will be named `yourModel.ldr_Packed.mpd` and placed in the `modesl/` folder.
+6. Your new file will be named `yourModel.ldr_Packed.mpd` and placed in the `modesl/` folder.
 
 ---
 
@@ -37,7 +37,7 @@ To convert your `.ldr` file, follow these steps:
 
 This project uses [LDraw](https://ldraw.org/), [Node.js](https://nodejs.org/en) and [THREE.js](https://threejs.org/).
 
-<img src="https://console.codeadam.ca/api/image/nodejs" width="60"> <img src="https://console.codeadam.ca/api/image/threejs" width="60">
+<img src="https://console.codeadam.ca/api/image/nodejs" width="60"> <img src="https://console.codeadam.ca/api/image/threejs" width="60"> <img src="https://console.codeadam.ca/api/image/ldraw" width="60">
 
 ---
 
